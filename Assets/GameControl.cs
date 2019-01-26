@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
 
@@ -13,14 +14,18 @@ public class GameControl : MonoBehaviour {
     public float rotationalSpeed = 1f;
     public float timeBetweenFalls = 3;
 
-    private float lastFallTime = 0;
+    public int numBodyPartsToDrop = 20;
 
+    private float lastFallTime = 0;
+    private int totalNumBodyParts;
+    private int numBodyPartsToExclude;
     
 	// Use this for initialization
 	void Start () {
         lastFallTime = Time.time;
-        
-	}
+        totalNumBodyParts = BodyPartPool.transform.childCount;
+        numBodyPartsToExclude = totalNumBodyParts - numBodyPartsToDrop;
+    }
 
     // Update is called once per frame
     void Update()
@@ -62,7 +67,12 @@ public class GameControl : MonoBehaviour {
         playerPosition.x += horizontalSpeed * Input.GetAxis("Horizontal");
         Player.transform.position = playerPosition;
 
-        Player.transform.Rotate(0, 0, rotationalSpeed * Input.GetAxis("Rotate"));
+        Player.transform.Rotate(0, 0, -rotationalSpeed * Input.GetAxis("Rotate"));
 
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(0);
     }
 }

@@ -1,7 +1,54 @@
 fileFormatVersion: 2
 guid: ca0f4c0c1a2db014e9f720465f6a32de
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BearAlternativeBody_0
+    21300002: BearAlternativeBody_1
+    21300004: BearAlternativeBody_2
+    21300006: BearAlternativeBody_3
+    21300008: BearAlternativeBody_4
+    21300010: BearAlternativeBody_5
+    21300012: BearAlternativeBody_6
+    21300014: BearAlternativeBody_7
+    21300016: BearAlternativeBody_8
+    21300018: BearAlternativeBody_9
+    21300020: BearAlternativeBody_10
+    21300022: BearAlternativeBody_11
+    21300024: BearAlternativeBody_12
+    21300026: BearAlternativeBody_13
+    21300028: BearAlternativeBody_14
+    21300030: BearAlternativeBody_15
+    21300032: BearAlternativeBody_16
+    21300034: BearAlternativeBody_17
+    21300036: BearAlternativeBody_18
+    21300038: BearAlternativeBody_19
+    21300040: BearAlternativeBody_20
+    21300042: BearAlternativeBody_21
+    21300044: BearAlternativeBody_22
+    21300046: BearAlternativeBody_23
+    21300048: BearAlternativeBody_24
+    21300050: BearAlternativeBody_25
+    21300052: BearAlternativeBody_26
+    21300054: BearAlternativeBody_27
+    21300056: BearAlternativeBody_28
+    21300058: BearAlternativeBody_29
+    21300060: BearAlternativeBody_30
+    21300062: BearAlternativeBody_31
+    21300064: BearAlternativeBody_32
+    21300066: BearAlternativeBody_33
+    21300068: BearAlternativeBody_34
+    21300070: BearAlternativeBody_35
+    21300072: BearAlternativeBody_36
+    21300074: BearAlternativeBody_37
+    21300076: BearAlternativeBody_38
+    21300078: BearAlternativeBody_39
+    21300080: BearAlternativeBody_40
+    21300082: BearAlternativeBody_41
+    21300084: BearAlternativeBody_42
+    21300086: BearAlternativeBody_43
+    21300088: BearAlternativeBody_44
+    21300090: BearAlternativeBody_45
+    21300092: BearAlternativeBody_46
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -38,12 +85,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,9 +112,687 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BearAlternativeBody_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 687
+        width: 299
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 733
+        width: 253
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 369
+        width: 655
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_3
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 798
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_4
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 54
+        width: 709
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_5
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 140
+        width: 302
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_6
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 261
+        width: 277
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_7
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 379
+        width: 309
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_8
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 397
+        width: 245
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_9
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 756
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_10
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 764
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 729
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_12
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 676
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_13
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 687
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 682
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_15
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 677
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 672
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 672
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 672
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_19
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 662
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_20
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 657
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_21
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 620
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_22
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 584
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_23
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 589
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_24
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 599
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_25
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 596
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_26
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 586
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 539
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_28
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_29
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 539
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_30
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 532
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_31
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 527
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_32
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 517
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_33
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 518
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_34
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 504
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_35
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 502
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_36
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 509
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_37
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 504
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_38
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 492
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_39
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 458
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_40
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 460
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_41
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 446
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_42
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 137
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_43
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 53
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_44
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 51
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_45
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 53
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BearAlternativeBody_46
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 45
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
