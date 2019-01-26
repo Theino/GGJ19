@@ -32,9 +32,9 @@ public class GameControl : MonoBehaviour {
     {
         if (Time.time > lastFallTime + timeBetweenFalls)
         {
-            if (BodyPartPool.transform.childCount > numBodyPartsToExclude)
+            if (BodyPartPool.transform.childCount > 0)
             {
-                Transform nextBodyPart = BodyPartPool.transform.GetChild(Random.Range(0,BodyPartPool.transform.childCount));
+                Transform nextBodyPart = BodyPartPool.transform.GetChild(0);
                 Vector3 bodyPartPosition = new Vector3(Random.Range(-5, 5), 5);
                 nextBodyPart.position = bodyPartPosition;
                 nextBodyPart.GetComponent<Rigidbody2D>().simulated = true;
@@ -67,7 +67,7 @@ public class GameControl : MonoBehaviour {
         playerPosition.x += horizontalSpeed * Input.GetAxis("Horizontal");
         Player.transform.position = playerPosition;
 
-        Player.transform.Rotate(0, 0, rotationalSpeed * Input.GetAxis("Rotate"));
+        Player.transform.Rotate(0, 0, -rotationalSpeed * Input.GetAxis("Rotate"));
 
     }
 
