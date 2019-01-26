@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
 
@@ -64,5 +65,10 @@ public class GameControl : MonoBehaviour {
 
         Player.transform.Rotate(0, 0, rotationalSpeed * Input.GetAxis("Rotate"));
 
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(0);
     }
 }
