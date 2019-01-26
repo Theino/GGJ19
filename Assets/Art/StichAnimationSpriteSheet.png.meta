@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: 7bf689c06ff5fad4ab6bd279a56542ae
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StichAnimationSpriteSheet_0
+    21300002: StichAnimationSpriteSheet_1
+    21300004: StichAnimationSpriteSheet_2
+    21300006: StichAnimationSpriteSheet_3
+    21300008: StichAnimationSpriteSheet_4
+    21300010: StichAnimationSpriteSheet_5
+    21300012: StichAnimationSpriteSheet_6
+    21300014: StichAnimationSpriteSheet_7
+    21300016: StichAnimationSpriteSheet_8
+    21300018: StichAnimationSpriteSheet_9
+    21300020: StichAnimationSpriteSheet_10
+    21300022: StichAnimationSpriteSheet_11
+    21300024: StichAnimationSpriteSheet_12
+    21300026: StichAnimationSpriteSheet_13
+    21300028: StichAnimationSpriteSheet_14
+    21300030: StichAnimationSpriteSheet_15
+    21300032: StichAnimationSpriteSheet_16
+    21300034: StichAnimationSpriteSheet_17
+    21300036: StichAnimationSpriteSheet_18
+    21300038: StichAnimationSpriteSheet_19
+    21300040: StichAnimationSpriteSheet_20
+    21300042: StichAnimationSpriteSheet_21
+    21300044: StichAnimationSpriteSheet_22
+    21300046: StichAnimationSpriteSheet_23
+    21300048: StichAnimationSpriteSheet_24
+    21300050: StichAnimationSpriteSheet_25
+    21300052: StichAnimationSpriteSheet_26
+    21300054: StichAnimationSpriteSheet_27
+    21300056: StichAnimationSpriteSheet_28
+    21300058: StichAnimationSpriteSheet_29
+    21300060: StichAnimationSpriteSheet_30
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 944
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 944
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 944
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 944
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 787
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 787
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 787
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 787
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 630
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 630
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 630
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 630
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 473
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 473
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 473
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 473
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 316
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 316
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 316
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 316
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 159
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 159
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 159
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StichAnimationSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 240
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
