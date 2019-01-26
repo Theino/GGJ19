@@ -14,23 +14,27 @@ public class GameControl : MonoBehaviour {
     public float rotationalSpeed = 1f;
     public float timeBetweenFalls = 3;
 
-    private float lastFallTime = 0;
+    public int numBodyPartsToDrop = 20;
 
+    private float lastFallTime = 0;
+    private int totalNumBodyParts;
+    private int numBodyPartsToExclude;
     
 	// Use this for initialization
 	void Start () {
         lastFallTime = Time.time;
-        
-	}
+        totalNumBodyParts = BodyPartPool.transform.childCount;
+        numBodyPartsToExclude = totalNumBodyParts - numBodyPartsToDrop;
+    }
 
     // Update is called once per frame
     void Update()
     {
         if (Time.time > lastFallTime + timeBetweenFalls)
         {
-            if (BodyPartPool.transform.childCount > 0)
+            if (BodyPartPool.transform.childCount > numBodyPartsToExclude)
             {
-                Transform nextBodyPart = BodyPartPool.transform.GetChild(0);
+                Transform nextBodyPart = BodyPartPool.transform.GetChild(Random.Range(0,BodyPartPool.transform.childCount));
                 Vector3 bodyPartPosition = new Vector3(Random.Range(-5, 5), 5);
                 nextBodyPart.position = bodyPartPosition;
                 nextBodyPart.GetComponent<Rigidbody2D>().simulated = true;
