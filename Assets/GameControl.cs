@@ -41,6 +41,11 @@ public class GameControl : MonoBehaviour {
                 nextBodyPart.parent = BodyPartPoolActive.transform;
                 lastFallTime = Time.time;
             }
+            else
+            {
+                DontDestroyOnLoad(Player);
+                SceneManager.LoadScene("EndScene");
+            }
         }
 
         if (Input.GetAxis("Attach") > 0)
