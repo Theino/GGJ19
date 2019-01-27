@@ -10,6 +10,8 @@ public class GameControl : MonoBehaviour {
     public GameObject BodyPartPoolActive;
     public GameObject StitchAnimation;
 
+    public AudioSource audioSource;
+
     public float horizontalSpeed = 0.05f;
     public float rotationalSpeed = 1f;
     public float timeBetweenFalls = 3;
@@ -55,6 +57,7 @@ public class GameControl : MonoBehaviour {
 
                     Instantiate(StitchAnimation, new Vector3(contactPoint.x, contactPoint.y), Quaternion.identity, Player.transform);
                     Destroy(activeBodyPart.GetComponent<Rigidbody2D>());
+                    
                 }
             }
         }
