@@ -10,8 +10,6 @@ public class GameControl : MonoBehaviour {
     public GameObject BodyPartPoolActive;
     public GameObject StitchAnimation;
 
-    public AudioSource audioSource;
-
     public float horizontalSpeed = 0.05f;
     public float rotationalSpeed = 1f;
     public float timeBetweenFalls = 3;
