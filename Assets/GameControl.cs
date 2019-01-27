@@ -10,8 +10,6 @@ public class GameControl : MonoBehaviour {
     public GameObject BodyPartPoolActive;
     public GameObject StitchAnimation;
 
-    public AudioSource audioSource;
-
     public float horizontalSpeed = 0.05f;
     public float rotationalSpeed = 1f;
     public float timeBetweenFalls = 3;
@@ -42,6 +40,11 @@ public class GameControl : MonoBehaviour {
                 nextBodyPart.GetComponent<Rigidbody2D>().simulated = true;
                 nextBodyPart.parent = BodyPartPoolActive.transform;
                 lastFallTime = Time.time;
+            }
+            else
+            {
+                DontDestroyOnLoad(Player);
+                SceneManager.LoadScene("EndScene");
             }
         }
 
